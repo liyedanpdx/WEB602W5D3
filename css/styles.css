@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,400italic,700);
+/*---------
+rgb(255,255,255)
+rgb(0,0,0)
+rgba(0,0,0,0.5)
+rgba(0,0,0,0.24)
+rgb(22, 34, 42)
+rgb(58, 96, 115)
+
+
+//Fonts:
+Bitter
+FontAwesome
+
+----------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bitter";
+}
+
+.header {
+  background: linear-gradient(to right, rgb(58, 96, 115), rgb(22, 34, 42));
+  font-family: "Bitter";
+  height: 13em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header h1 {
+  color: rgb(255, 255, 255);
+  font-size: 1.3em;
+}
+
+#vue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#vue h3 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em;
+}
+#vue ul {
+  width: 60em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+#vue ul li {
+  display: inline-block;
+  width: 12em;
+  margin: 0 1em 1em 0;
+}
+#vue ul li img {
+  width: 12em;
+  height: 12em;
+  object-fit: cover;
+}
+#vue ul li span {
+  display: block;
+  text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+#vue ul li .name {
+  font-weight: bold;
+}
+#vue ul li .description {
+  font-family: "Bitter";
+  font-style: italic;
+  font-size: 0.8em;
+}
+#vue ul li button {
+  display: block;
+  margin: 1em auto;
+  border: 0.2em solid black;
+  padding: 0.5em;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 0.8em;
+}
+
+/*# sourceMappingURL=styles.css.map */
